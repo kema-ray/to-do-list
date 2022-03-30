@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, rgb(255, 0, 179) 50%, #333 50%);
+}
+h1{
+    font-family: 'Hurricane', cursive;
+    text-align: center;
+}
+.container {
+    height: 700px;
+    width: 700px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    overflow-y: auto;
+}
+#input {
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #666;
+    color: #fff;
+    padding: 0 10px;
+    margin: 15px 0;
+}
+#input::placeholder{
+    color: #bbb;
+}
+ul li {
+    background: #eee;
+    color: #333;
+    height: 40px;
+    border-radius: 50px;
+    margin: 10px 0;
+    padding: 10px;
+}
+ul .fa-check, .fa-trash {
+    padding-left: 30%;
+    cursor: pointer;
+    flex: auto;
+}
+ul .fa-check{
+    right: 40px;
+    color: green;
+}
+ul .fa-trash{
+    right: 15px;
+    color: #ff0033;
+}
+ul .checked {
+    background: greenyellow;
+    text-decoration: line-through;
+    transition: .2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1 {
+    font-family: 'Hurricane', cursive;
+    text-align: center;
+    color: #8b5cf6;
+    padding-top: 3vh;
+    margin-bottom: 2%;
+}
+.row {
+    margin-left: 40%;
+}
+.form-label {
+    font-weight: bold;
+}
+#submit {
+    background-color: pink;
+    color: blueviolet;
+    font-weight: bold;padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    transition: transform 0.5s;
+} */
+/* .to-do-list{
+    padding: 100px;
+    margin: auto;
+    border: 5px solid #111827;
+    width: 60%;
+} */
+/* .item-list {
+    display: none;
+} */
